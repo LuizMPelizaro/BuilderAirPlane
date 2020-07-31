@@ -16,7 +16,7 @@ public class Main {
         AirPlaneBuilder builder = new AirPlaneBuilder();
         AirPlaneConfig configBuider = new AirPlaneConfig();
         int option = 0;
-        while (option >= 0 && option <= 4) {
+        while (option >= 0 && option < 4) {
             System.out.println("Escreva o tipo de aviao que deseja construir" +
                     "\n1-Avião militar\n2-Avião de carga\n3-Avião de passageiros\n4-Sair");
             option = sc1.nextInt();
