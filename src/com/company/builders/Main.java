@@ -38,7 +38,7 @@ public class Main {
                     System.out.println("Configuração do avião :" + configCargoPlan.print());
                     break;
                 case 3:
-                    director.constructCargoPlane(builder);
+                    director.constructBusinessJet(builder);
                     AirPlane airPlane3 = builder.getResult();
                     director.constructBusinessJet(configBuider);
                     Config configBusinessJet = configBuider.getResult();
